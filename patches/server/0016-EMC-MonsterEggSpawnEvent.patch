@@ -5,7 +5,7 @@ Subject: [PATCH] EMC - MonsterEggSpawnEvent
 
 
 diff --git a/src/main/java/net/minecraft/server/EntityTypes.java b/src/main/java/net/minecraft/server/EntityTypes.java
-index 1138981ae..37b984a5b 100644
+index 1138981aebb7fbb3f3839dcd221e3ee850ab4456..37b984a5b6c1c6e146e1c4b0947d1e39a051cfbb 100644
 --- a/src/main/java/net/minecraft/server/EntityTypes.java
 +++ b/src/main/java/net/minecraft/server/EntityTypes.java
 @@ -187,19 +187,46 @@ public class EntityTypes<T extends Entity> {

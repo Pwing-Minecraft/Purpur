@@ -5,7 +5,7 @@ Subject: [PATCH] ItemFactory#getMonsterEgg
 
 
 diff --git a/src/main/java/org/bukkit/inventory/ItemFactory.java b/src/main/java/org/bukkit/inventory/ItemFactory.java
-index 3f23927e..23d55f75 100644
+index 3f23927e58e0ccf8cf04d4beb4d83346e3f84730..23d55f756b2bb5a557bfae102d7039d8394fbe69 100644
 --- a/src/main/java/org/bukkit/inventory/ItemFactory.java
 +++ b/src/main/java/org/bukkit/inventory/ItemFactory.java
 @@ -215,4 +215,15 @@ public interface ItemFactory {

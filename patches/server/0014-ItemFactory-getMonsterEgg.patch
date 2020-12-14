@@ -5,7 +5,7 @@ Subject: [PATCH] ItemFactory#getMonsterEgg
 
 
 diff --git a/src/main/java/net/minecraft/server/ItemMonsterEgg.java b/src/main/java/net/minecraft/server/ItemMonsterEgg.java
-index 76c585299..f543bd84f 100644
+index 76c585299096ab3719bf23b32f1ce046202a9818..f543bd84ffa3714eb0c4a6308f52470943afb452 100644
 --- a/src/main/java/net/minecraft/server/ItemMonsterEgg.java
 +++ b/src/main/java/net/minecraft/server/ItemMonsterEgg.java
 @@ -9,7 +9,7 @@ import javax.annotation.Nullable;
@@ -18,7 +18,7 @@ index 76c585299..f543bd84f 100644
      private final int c;
      private final EntityTypes<?> d;
 diff --git a/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemFactory.java b/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemFactory.java
-index af84813c7..2d38a4782 100644
+index af84813c703813ec3a6ca89ff437d89e31a9100f..2d38a4782d85dd9c5e6097bea6c13c6185ea05ab 100644
 --- a/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/inventory/CraftItemFactory.java
 @@ -388,4 +388,18 @@ public final class CraftItemFactory implements ItemFactory {
